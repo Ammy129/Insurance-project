@@ -2,7 +2,7 @@ import React from "react";
 
 const SinglePackage = ({ img, name }) => {
   return (
-    <article className="singe-package inline-block text-center grid place-items-center ">
+    <article className="single-package inline-block text-center grid place-items-center hover:bg-blue-100 transition duration-200 cursor-pointer py-4 px-8 rounded-lg ">
       {/* Image */}
       <figure
         className="w-16 h-16 border border-blue-600 grid place-items-center relative"
