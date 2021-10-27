@@ -28,12 +28,12 @@ const Hero = () => {
       {/* Figure */}
       <figure className="Hero-image-wrapper relative">
         {/* Coin */}
-        <div className="img-wrapper absolute coin shadow-xl bg-white rounded-xl w-16  lg:w-20">
+        <div className="img-wrapper absolute coin shadow-xl bg-white rounded-xl ">
           <img src="./images/coin.png" alt="coin image" className="w-full  " />
         </div>
 
         {/* Graph */}
-        <div className="img-wrapper absolute  shadow-xl bg-white rounded-xl w-28 lg:w-36 graph overflow-hidden ">
+        <div className="img-wrapper absolute  shadow-xl bg-white rounded-xl graph overflow-hidden ">
           <img src="./images/graph.png" alt="graph image" className=" w-full" />
         </div>
 
